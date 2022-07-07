@@ -731,7 +731,7 @@ h1 {
 
 /* ------ media queries ------ */
 
-@media (min-width: 769px) and (max-width: 2000px) {
+@media (min-width: 769px) and (max-width: 2200px) {
   #about {
     background-color: black;
   }
