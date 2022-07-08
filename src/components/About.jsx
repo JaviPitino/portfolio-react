@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function About() {
   return (
@@ -16,11 +16,11 @@ function About() {
           <div className="line-about"></div>
           <h3 id="contact">Contact</h3>
           <p>
-            <Link to={"https://github.com/JaviPitino"} alt="github" target="_blank" ><i className="icon fa-brands fa-github">
-              </i></Link>
-            <Link to={"https://www.linkedin.com/in/javier-lopez-diaz/"} alt="linkedin" target="_blank"><i
-                className="icon fa-brands fa-linkedin"></i></Link>
-            <Link to={"mailto:javierpitino@gmail.com"}><i className="icon fa-solid fa-envelope"></i></Link>
+            <a href="https://github.com/JaviPitino" alt="github" target="_blank" ><i className="icon fa-brands fa-github">
+              </i></a>
+            <a href="https://www.linkedin.com/in/javier-lopez-diaz/" alt="linkedin" target="_blank"><i
+                className="icon fa-brands fa-linkedin"></i></a>
+            <a href="mailto:javierpitino@gmail.com"><i className="icon fa-solid fa-envelope"></i></a>
           </p>
         </div>
         <div className="about-right">

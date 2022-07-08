@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -18,13 +18,13 @@ function Projects() {
               con javascript. Dosis de rock, cerveza, un poquito de irreverencia
               y mucho humor{" "}
             </p>
-            <NavLink
-              to="https://javipitino.github.io/Road-to-Hell/"
+            <a
+              href="https://javipitino.github.io/Road-to-Hell/"
               target={"_blank"}
             >
               {" "}
               <button>Go Hell!</button>{" "}
-            </NavLink>
+            </a>
           </div>
         </div>
         <div className="cada-carta" style={{ width: "25rem" }}>
@@ -36,13 +36,13 @@ function Projects() {
               con javascript. Dosis de rock, cerveza, un poquito de irreverencia
               y mucho humor{" "}
             </p>
-            <NavLink
-              to="https://javipitino.github.io/Road-to-Hell/"
+            <a
+              href="https://wine-routes.herokuapp.com/"
               target={"_blank"}
             >
               {" "}
               <button>Go for Wines!</button>{" "}
-            </NavLink>
+            </a>
           </div>
         </div>
         <div className="cada-carta" style={{ width: "25rem" }}>
@@ -54,55 +54,16 @@ function Projects() {
               con javascript. Dosis de rock, cerveza, un poquito de irreverencia
               y mucho humor{" "}
             </p>
-            <NavLink
-              to="https://javipitino.github.io/Road-to-Hell/"
+            <a
+              href="https://ecocajas.netlify.app/"
               target={"_blank"}
             >
               {" "}
               <button>Go for food!</button>{" "}
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>
-
-      {/* <CardGroup className="cardgroup" >
-          <Card style={{ width: "10rem" }}>
-            <Card.Img variant="top" src="./imgs/road-to-hell.png" />
-            <Card.Body>
-              <Card.Title>Road To Hell</Card.Title>
-              <Card.Text>
-                Un pequeño juego de colisiones con estético ochentera realizado
-                con javascript. Dosis de rock, cerveza, un poquito de
-                irreverencia y mucho humor
-              </Card.Text>
-              <Button variant="primary"> Go Hell! </Button>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "10rem" }}>
-            <Card.Img variant="top" src="./imgs/wines-routes.png" />
-            <Card.Body>
-              <Card.Title>Road To Hell</Card.Title>
-              <Card.Text>
-                Un pequeño juego de colisiones con estético ochentera realizado
-                con javascript. Dosis de rock, cerveza, un poquito de
-                irreverencia y mucho humor
-              </Card.Text>
-              <Button variant="primary">Go Hell!</Button>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "10rem" }}>
-            <Card.Img variant="top" src="./imgs/ecocajas.png" />
-            <Card.Body>
-              <Card.Title>Road To Hell</Card.Title>
-              <Card.Text>
-                Un pequeño juego de colisiones con estético ochentera realizado
-                con javascript. Dosis de rock, cerveza, un poquito de
-                irreverencia y mucho humor
-              </Card.Text>
-              <Button variant="primary">Go Hell!</Button>
-            </Card.Body>
-          </Card>
-        </CardGroup> */}
     </section>
   );
 }
