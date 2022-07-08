@@ -6,14 +6,14 @@ function Home() {
     // ---- HOME ---- 
     <div>
     <section id="home">
-        <div class="rectangle"></div>
+        <div className="rectangle"></div>
         <div id="hola">
         <h1 id="text">
             <span>Hola</span>
-            <div class="message">
-            <div class="word1">World!, </div>
-            <div class="word2">Mundo!, </div>
-            <div class="word3">World!, </div>
+            <div className="message">
+            <div className="word1">World!, </div>
+            <div className="word2">Mundo!, </div>
+            <div className="word3">World!, </div>
             </div>
         </h1>
         <h1>I´m Javi López</h1>
@@ -21,13 +21,13 @@ function Home() {
             Junior Full Stack Web Developer <br />
             & Graphic Designer
             </h4>
-        <div class="line"></div>
+        <div className="line"></div>
         </div>
-        <button class="learn-more"><a href="#about">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
+        <button className="learn-more"><a href="#about">
+            <span className="circle" aria-hidden="true">
+            <span className="icon arrow"></span>
             </span>
-            <span class="button-text">Show me más!</span>
+            <span className="button-text">Show me más!</span>
         </a>
         </button>
     </section>

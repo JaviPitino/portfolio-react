@@ -78,26 +78,25 @@ body {
 
 /* ---- ICONOS SKILLS ---- */
 .icon-skill {
-    justify-content: space-evenly;
-    font-size: 3em;
-    color: black;
-    padding: 0 1em 0.5em 0;
+  justify-content: space-evenly;
+  font-size: 3em;
+  color: black;
+  padding: 0 1em 0.5em 0;
 }
 
 .icon-skill:hover {
- 
-    font-size: 3em;
-    color: crimson;
-    padding: 0 1em 2em 0;
-    transition: 1s;
+  font-size: 3em;
+  color: crimson;
+  padding: 0 1em 2em 0;
+  transition: 1s;
 }
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    /* align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center;
     justify-content: center; */
-    margin: 0 3.5em 0 0;
+  margin: 0 3.5em 0 0;
 }
 
 /* ---- CURRICULUM SECTION ---- */
@@ -143,94 +142,94 @@ body {
 }
 
 .cv-left {
-    margin-right: 80px;
+  margin-right: 80px;
 }
 
 /* ---- SKILLS BAR ---- */
 .cv-right {
-    box-sizing: border-box;
-    min-height: 70vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: white;
-    align-items: flex-start;
+  box-sizing: border-box;
+  /* min-height: 70vh; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: white;
+  align-items: flex-start;
 }
 
 .soft-skills {
-    margin-top: 30px;
-    width: 350px;
-    max-width: 600px;
-    /* padding: 0 20px; */
+  margin-top: 30px;
+  width: 350px;
+  max-width: 600px;
+  /* padding: 0 20px; */
 }
 
 .skill-name {
-    font-size: 0.9em;
-    font-weight: 700;
-    color: black;
-    text-transform: uppercase;
-    margin: 20px 0;
+  font-size: 0.9em;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  margin: 20px 0;
 }
 
 .skill-bar {
-    height: 14px;
-    background-color:lightgray;
-    border-radius: 5px;
+  height: 14px;
+  background-color: lightgray;
+  border-radius: 5px;
 }
 
 .skill-per {
-    height: 14px;
-    background-color: crimson;
-    border-radius: 5px;
-    position: relative;
-    animation: bars 2.2s 1;
+  height: 14px;
+  background-color: crimson;
+  border-radius: 5px;
+  position: relative;
+  animation: bars 2.2s 1;
 }
 
 .skill-per:before {
-    content: attr(per);
-    position: absolute;
-    padding: 4px 6px;
-    background-color: black;
-    color: white;
-    border-radius: 6px;
-    font-size: 0.7em;
-    top: -35px;
-    right: 0;
-    transform: translateX(50%);
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.7em;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
 }
 
 .skill-per:after {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height:10px;
-    background-color: black;
-    top: -20px;
-    right: 0;
-    transform: translateX(50%) rotate(45deg);
-    border-radius: 2px;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
 }
 
 @keyframes bars {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .hard-skills {
-    margin: 0rem 0rem 2rem 8rem;
-    display: flex;
-    flex-direction: column;
-    padding: 0rem 2rem 2rem 0rem;
-  }
-  
-  .hard-skills h3 {
-    font-size: 1.8em;
-    margin-bottom: 2rem;
-  }
+  margin: 0rem 0rem 2rem 8rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem 2rem 0rem;
+}
+
+.hard-skills h3 {
+  font-size: 1.8em;
+  margin-bottom: 2rem;
+}
 
 .line-cv {
   background-color: crimson;
@@ -475,11 +474,8 @@ body {
   }
 
   .container-cv {
-   
     display: flex;
     flex-wrap: wrap;
-
-  
   }
 
   /* ......./ home /......... */
@@ -586,8 +582,8 @@ h1 {
     width: 4em;
   }
   62% {
-        top: -5rem;
-        width: 4em;
+    top: -5rem;
+    width: 4em;
   }
   66% {
     top: -5rem;

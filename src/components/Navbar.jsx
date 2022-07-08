@@ -1,30 +1,53 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     // <!-- CURRICULUM -->
     <section id="navbar">
-  
-      <nav class="navbar">
-        <div class="navbar-container container">
+      <nav className="navbar">
+        <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
-          <div class="hamburger-lines">
-            <span class="lines line1"></span>
-            <span class="lines line2"></span>
-            <span class="lines line3"></span>
+          <div className="hamburger-lines">
+            <span className="lines line1"></span>
+            <span className="lines line2"></span>
+            <span className="lines line3"></span>
           </div>
-          <ul class="menu-items">
-            <li><a class="link" href="#home">Home</a></li>
-            <li><a class="link" href="#about">About</a></li>
-            <li><a class="link" href="#cv">Curriculum</a></li>
-            <li><a class="link" href="#projects">Proyectos</a></li>
+          <ul className="menu-items">
+            <li>
+              <Link className="link" to={'#home'}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="link" to={"#about"}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link className="link" to={"#cv"}>
+                Curriculum
+              </Link>
+            </li>
+            <li>
+              <Link className="link" to={"#projects"}>
+                Proyectos
+              </Link>
+            </li>
           </ul>
-          <a class="logo" href="#home"><img src="./imgs/logo-javi2-blanco.png" alt="logo-javi" class="logo" width="70px" /></a>
+          <Link className="logo" to={"#home"}>
+            <img
+              src="./imgs/logo-javi2-blanco.png"
+              alt="logo-javi"
+              className="logo"
+              width="70px"
+            />
+          </Link>
         </div>
-        <div class="line-navbar"></div>
+        <div className="line-navbar"></div>
       </nav>
     </section>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
