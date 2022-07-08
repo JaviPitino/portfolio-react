@@ -6,7 +6,7 @@ function Projects() {
     <section id="projects">
         <div className="projects-title">
         <div className="line-projects"></div>
-        <h3>Projects</h3>
+        <h3>Proyectos</h3>
         </div>
         <div className="projects-cards">
         <div class="cards">
@@ -30,7 +30,7 @@ function Projects() {
             <img src="./imgs/wines-routes.png" alt="wines" />
             <div class="img-content">
               <h3>Wines.Routes</h3>
-              <p>Rock, cerveza y un poquito de irreverencia</p>
+              <p>Una plataforma para los amantes del vino</p>
               <a
                 href="https://javipitino.github.io/Road-to-Hell/"
                 className="btn btn-primary"
@@ -46,7 +46,7 @@ function Projects() {
             <img src="./imgs/ecocajas.png" alt="huerto" />
             <div class="img-content">
               <h3>El Huerto Ecológico</h3>
-              <p>Rock, cerveza y un poquito de irreverencia</p>
+              <p>Para los que buscan una manera más sostenible y ecológica de alimentarse</p>
               <a
                 href="https://javipitino.github.io/Road-to-Hell/"
                 className="btn btn-primary"
