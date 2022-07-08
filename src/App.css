@@ -297,6 +297,18 @@ body {
   margin-right: 1rem;
 }
 
+.line-curri {
+  width: 100%;
+  height: 3px;
+  background-color: crimson;
+}
+
+/* ---- PROJECTS SECTION ---- */
+#projects {
+  background-color: black;
+  color: white;
+}
+
 /* -------/ Hola world! -------- */
 
 .rectangle {

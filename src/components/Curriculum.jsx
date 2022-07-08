@@ -98,6 +98,7 @@ function Curriculum() {
           </p>
         </div>
       </div>
+      <div className="line-curri"></div>
     </section>
   );
 }
