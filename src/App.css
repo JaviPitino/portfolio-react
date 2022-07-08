@@ -307,6 +307,8 @@ body {
 #projects {
   background-color: black;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* -------/ Hola world! -------- */
