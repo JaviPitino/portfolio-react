@@ -4,63 +4,57 @@ import React from "react";
 function Projects() {
   return (
     <section id="projects">
-      <div className="projects-title">
+        <div className="projects-title">
         <div className="line-projects"></div>
         <h3>Projects</h3>
-      </div>
-      <div className="cards">
-        <div className="cada-carta" style={{ width: "25rem" }}>
-          <img variant="top" src="./imgs/road-to-hell.png" alt="road" />
-          <div className="card-body">
-            <h4>Road To Hell!</h4>
-            <p>
-              Un pequeño juego de colisiones con estética ochentera realizado
-              con javascript. Dosis de rock, cerveza, un poquito de irreverencia
-              y mucho humor{" "}
-            </p>
-            <a
-              href="https://javipitino.github.io/Road-to-Hell/"
-              target={"_blank"}
-            >
-              {" "}
-              <button>Go Hell!</button>{" "}
-            </a>
+        </div>
+        <div className="projects-cards">
+        <div class="cards">
+          <div class="img-container">
+            <img src="./imgs/road-to-hell.png" alt="road" />
+            <div class="img-content">
+              <h3>Road To Hell</h3>
+              <p>Rock, cerveza y un poquito de irreverencia</p>
+              <a
+                href="https://javipitino.github.io/Road-to-Hell/"
+                className="btn btn-primary"
+                target="blank"
+              >
+                <button>Vamos!</button>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="cada-carta" style={{ width: "25rem" }}>
-          <img variant="top" src="./imgs/wines-routes.png" alt="wines" />
-          <div className="card-body">
-            <h4>Wine.Routes</h4>
-            <p>
-              Un pequeño juego de colisiones con estética ochentera realizado
-              con javascript. Dosis de rock, cerveza, un poquito de irreverencia
-              y mucho humor{" "}
-            </p>
-            <a
-              href="https://wine-routes.herokuapp.com/"
-              target={"_blank"}
-            >
-              {" "}
-              <button>Go for Wines!</button>{" "}
-            </a>
+        <div class="cards">
+          <div class="img-container">
+            <img src="./imgs/wines-routes.png" alt="wines" />
+            <div class="img-content">
+              <h3>Wines.Routes</h3>
+              <p>Rock, cerveza y un poquito de irreverencia</p>
+              <a
+                href="https://javipitino.github.io/Road-to-Hell/"
+                className="btn btn-primary"
+                target="blank"
+              >
+                <button>Vamos!</button>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="cada-carta" style={{ width: "25rem" }}>
-          <img variant="top" src="./imgs/ecocajas.png" alt="road" />
-          <div className="card-body">
-            <h4>El Huerto Ecológico</h4>
-            <p>
-              Un pequeño juego de colisiones con estética ochentera realizado
-              con javascript. Dosis de rock, cerveza, un poquito de irreverencia
-              y mucho humor{" "}
-            </p>
-            <a
-              href="https://ecocajas.netlify.app/"
-              target={"_blank"}
-            >
-              {" "}
-              <button>Go for food!</button>{" "}
-            </a>
+        <div class="cards">
+          <div class="img-container">
+            <img src="./imgs/ecocajas.png" alt="huerto" />
+            <div class="img-content">
+              <h3>El Huerto Ecológico</h3>
+              <p>Rock, cerveza y un poquito de irreverencia</p>
+              <a
+                href="https://javipitino.github.io/Road-to-Hell/"
+                className="btn btn-primary"
+                target="blank"
+              >
+                <button>vamos!</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

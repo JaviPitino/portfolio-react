@@ -1,0 +1,77 @@
+.img-container {
+  margin: 0 1rem 5rem 0;
+  position: relative;
+}
+
+.img-content {
+  position: absolute;
+  top: 70%;
+  left: 12.5rem;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.img-content h3 {
+  padding-top: 2em;
+  color: white;
+  font-size: 2rem;
+}
+
+.img-content a {
+  font-size: 1.2rem;
+}
+
+.img-content p {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 600;
+  width: 12.5rem;
+}
+
+.img-content button {
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-weight: 600;
+  width: 10em;
+  color: white;
+  padding: 10px 0;
+  margin: 25px 0 10px 0;
+  background-color: crimson;
+  text-transform: uppercase;
+}
+
+.img-content button:hover {
+  background-color: crimson;
+  opacity: 0.8;
+  transition: 1s;
+}
+
+.img-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  z-index: 1;
+
+  transform: scaleY(0);
+  transform-origin: 100% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-container:hover::after {
+  opacity: 0.7;
+  transform: scaleY(1);
+}
+
+.img-container:hover .img-content {
+  opacity: 1;
+  top: 40%;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import './food.css';
 import About from './components/About';
 import Curriculum from './components/Curriculum';
 import Navbar from './components/Navbar';
