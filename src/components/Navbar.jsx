@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     // <!-- CURRICULUM -->
@@ -15,7 +16,7 @@ function Navbar() {
           </div>
           <ul className="menu-items">
             <li>
-              <Link className="link" to={'#home'}>
+              <Link className="link" to={"#home"}>
                 Home
               </Link>
             </li>

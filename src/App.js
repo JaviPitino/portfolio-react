@@ -8,11 +8,11 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Navbar />
-      <Curriculum />
-      <Projects />
+        <Home />
+        <About />
+        <Navbar />
+        <Curriculum />
+        <Projects />
     </div>
   );
 }

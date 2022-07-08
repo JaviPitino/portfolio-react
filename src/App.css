@@ -87,15 +87,12 @@ body {
 .icon-skill:hover {
   font-size: 3em;
   color: crimson;
-  padding: 0 1em 2em 0;
   transition: 1s;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center;
-    justify-content: center; */
   margin: 0 3.5em 0 0;
 }
 
@@ -154,11 +151,12 @@ body {
   flex-direction: column;
   background-color: white;
   align-items: flex-start;
+  width: 188%;
 }
 
 .soft-skills {
   margin-top: 30px;
-  width: 350px;
+  width: 28em;
   max-width: 600px;
   /* padding: 0 20px; */
 }
@@ -307,8 +305,77 @@ body {
 #projects {
   background-color: black;
   color: white;
+  padding: 4em 0 0 8em;
+}
+
+.line-projects {
+  background-color: crimson;
+  width: 40px;
+  height: 2px;
+  margin-bottom: 1rem;
+}
+
+.projects-title {
+  width: 100%;
+}
+
+.projects-title h3 {
+  font-size: 1.8em;
+  margin-bottom: 2rem;
+}
+
+.cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2em 2em 2em 0em;
+}
+
+.cada-carta {
+  padding-right: 30px;
+  margin-bottom: 4em;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid crimson;
+  width: auto;
+}
+
+.cada-carta img {
+  width: 108%;
+}
+
+.card-body {
+  padding: 1em;
+}
+
+.card-body h4 {
+  font-size: 2em;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+
+.card-body p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.card-body button {
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-weight: 600;
+  width: 10em;
+  color: white;
+  padding: 10px 0;
+  margin: 25px 0 10px 0;
+  background-color: crimson;
+  text-transform: uppercase;
+}
+
+.card-body button:hover {
+  background-color: crimson;
+  opacity: 0.8;
+  transition: 1s;
 }
 
 /* -------/ Hola world! -------- */
