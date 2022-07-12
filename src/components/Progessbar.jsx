@@ -2,8 +2,6 @@ import React from 'react'
 
 function Progessbar() {
 
-    let progressBar = document.querySelector('.progressbar');
-
     function scrollProgressBar() {
 
         // scrollTop -> es lo que avanza el scroll
@@ -19,10 +17,10 @@ function Progessbar() {
         let windowHeight = scrollHeight - clientHeight;
         let porcentaje = scrollTop /  windowHeight * 100;
 
-        progressBar.style.width = porcentaje + '%';
+        document.querySelector('.progressbar').style.width = porcentaje + '%';
     }
 
-    window.addEventListener('scroll', scrollProgressBar)
+    window.addEventListener('scroll', scrollProgressBar);
 
   return (
     <div className='container-progressbar'>

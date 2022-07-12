@@ -9,10 +9,10 @@ function Projects() {
         <h3>Proyectos</h3>
         </div>
         <div className="projects-cards">
-        <div class="cards">
-          <div class="img-container">
+        <div className="cards">
+          <div className="img-container">
             <img src="./imgs/road-to-hell.png" alt="road" />
-            <div class="img-content">
+            <div className="img-content">
               <h3>Road To Hell</h3>
               <p>Rock, cerveza y un poquito de irreverencia</p>
               <a
@@ -25,10 +25,10 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div class="cards">
-          <div class="img-container">
+        <div className="cards">
+          <div className="img-container">
             <img src="./imgs/wines-routes.png" alt="wines" />
-            <div class="img-content">
+            <div className="img-content">
               <h3>Wines.Routes</h3>
               <p>Una plataforma para los amantes del vino</p>
               <a
@@ -41,10 +41,10 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div class="cards">
-          <div class="img-container">
+        <div className="cards">
+          <div className="img-container">
             <img src="./imgs/ecocajas.png" alt="huerto" />
-            <div class="img-content">
+            <div className="img-content">
               <h3>El Huerto Ecológico</h3>
               <p>Para los que buscan una manera más sostenible y ecológica de alimentarse</p>
               <a

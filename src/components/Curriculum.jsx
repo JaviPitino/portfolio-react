@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Curriculum() {
 
@@ -123,9 +122,6 @@ function Curriculum() {
           </p>
         </div>
       </div>
-      <Link to={"#home"}>
-        <button id="button"></button>
-      </Link>
       <div className="line-curri"></div>
     </section>
   );
