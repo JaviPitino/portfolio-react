@@ -17,6 +17,21 @@ body {
   font-weight: 900;
 }
 
+/* ---- PROGRESS BAR ---- */
+.container-progressbar {
+  width: 100%;
+  height: 6px;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+}
+
+.progressbar {
+  width: 0%;
+  height: 100%;
+  background-color: black;
+}
+
 /* desktop mode............/// */
 
 /* ---- ABOUT SECTION ---- */
@@ -333,6 +348,27 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 1em 2em 1em 0em;
+}
+
+/* ---- FOOTER ---- */
+
+.line-footer {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+.footer {
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  padding: 3em 0;
+  background-color: yellow;
+  font-weight: 400;
+}
+
+.footer span {
+  font-weight: 900;
 }
 
 /* -------/ Hola world! -------- */

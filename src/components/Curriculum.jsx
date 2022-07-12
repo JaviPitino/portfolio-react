@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Curriculum() {
 
@@ -40,42 +41,66 @@ function Curriculum() {
             <div className="soft-skill">
               <div className="skill-name">CREATIVIDAD</div>
               <div className="skill-bar">
-                <div className="skill-per" per="85%" style={{maxWidth: "85%"}}></div>
+                <div
+                  className="skill-per"
+                  per="85%"
+                  style={{ maxWidth: "85%" }}
+                ></div>
               </div>
             </div>
             {/* <!-- Creatividad --> */}
             <div className="soft-skill">
               <div className="skill-name">RESPONSABILIDAD</div>
               <div className="skill-bar">
-                <div className="skill-per" per="90%" style={{maxWidth: "90%"}}></div>
+                <div
+                  className="skill-per"
+                  per="90%"
+                  style={{ maxWidth: "90%" }}
+                ></div>
               </div>
             </div>
             {/* <!-- COMPROMISO --> */}
             <div className="soft-skill">
               <div className="skill-name">COMPROMISO</div>
               <div className="skill-bar">
-                <div className="skill-per" per="95%" style={{maxWidth: "95%"}}></div>
+                <div
+                  className="skill-per"
+                  per="95%"
+                  style={{ maxWidth: "95%" }}
+                ></div>
               </div>
             </div>
             {/* <!-- RESOLUTIVO --> */}
             <div className="soft-skill">
               <div className="skill-name">RESOLUTIVO</div>
               <div className="skill-bar">
-                <div className="skill-per" per="80%" style={{maxWidth: "80%"}}></div>
+                <div
+                  className="skill-per"
+                  per="80%"
+                  style={{ maxWidth: "80%" }}
+                ></div>
               </div>
             </div>
             {/* //  TRABAJO EN EQUIPO */}
             <div className="soft-skill">
               <div className="skill-name">TRABAJO EN EQUIPO</div>
               <div className="skill-bar">
-                <div className="skill-per" per="85%" style={{maxWidth: "85%"}}></div>
+                <div
+                  className="skill-per"
+                  per="85%"
+                  style={{ maxWidth: "85%" }}
+                ></div>
               </div>
             </div>
             {/* <!-- COMUNICATIVO --> */}
             <div className="soft-skill">
               <div className="skill-name">COMUNICATIVO</div>
               <div className="skill-bar">
-                <div className="skill-per" per="75%" style={{maxWidth: "75%"}}></div>
+                <div
+                  className="skill-per"
+                  per="75%"
+                  style={{ maxWidth: "75%" }}
+                ></div>
               </div>
             </div>
           </div>
@@ -98,6 +123,9 @@ function Curriculum() {
           </p>
         </div>
       </div>
+      <Link to={"#home"}>
+        <button id="button"></button>
+      </Link>
       <div className="line-curri"></div>
     </section>
   );
