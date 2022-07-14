@@ -103,7 +103,7 @@ body {
   justify-content: space-evenly;
   width: 1.5em;
   color: black;
-  padding: 0 .7em 0.5em 0;
+  padding: 0.1em .7em 0.5em 0;
 }
 
 
@@ -380,7 +380,7 @@ body {
   height: 3em;
   display: flex;
   justify-content: center;
-  padding: 2.5em 0;
+  padding: 2em 0;
   background-color: yellow;
   font-weight: 400;
 }
@@ -659,7 +659,7 @@ h1 {
   top: 0rem;
   line-height: 1.2em;
   left: 2.5em;
-  animation: openclose 3s ease-in-out;
+  animation: openclose 2.5s ease-in-out;
 }
 
 .word1 {
@@ -687,11 +687,11 @@ h1 {
   }
   15% {
     top: -0.1rem;
-    width: 3.5em;
+    width: 4em;
   }
   30% {
     top: -0.1rem;
-    width: 3.5em;
+    width: 4em;
   }
   33% {
     top: -0.1rem;
@@ -716,7 +716,7 @@ h1 {
   }
   100% {
     top: -0.1rem;
-    width: 3.9em;
+    width: 3.8em;
   }
 }
 
@@ -837,7 +837,7 @@ h1 {
     top: 0em;
     line-height: 1.3em;
     left: 2.5em;
-    animation: openclose 3s ease-in-out;
+    animation: openclose 2.5s ease-in-out;
   }
 
   @keyframes openclose {
@@ -851,11 +851,11 @@ h1 {
     }
     15% {
       top: -0.1rem;
-      width: 3.5em;
+      width: 4em;
     }
     30% {
       top: -0.1rem;
-      width: 3.5em;
+      width: 4em;
     }
     33% {
       top: -0.1rem;
@@ -880,7 +880,7 @@ h1 {
     }
     100% {
       top: -0.1rem;
-      width: 3.9em;
+      width: 3.8em;
     }
   }
 
@@ -1055,7 +1055,7 @@ h1 {
     }
     100% {
       top: -0.1rem;
-      width: 4em;
+      width: 3.8em;
     }
   }
 }
