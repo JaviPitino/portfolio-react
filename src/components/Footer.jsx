@@ -28,7 +28,7 @@ function Footer() {
       <div className="line-footer"></div>
       <footer className="footer">
         {" "}
-        Designed & created by &nbsp;<span>Javi López </span> &nbsp; | 2022{" "}
+        Designed by &nbsp;<span>Javi López </span> &nbsp; | 2022{" "}
       </footer>
     </div>
   );
