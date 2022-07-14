@@ -93,7 +93,7 @@ function Curriculum() {
                 ></div>
               </div>
             </div>
-           <a href="./imgs/javi-lopez-esp.pdf" alt="curriculum" target="blank"> <button className="btn-cv">Mira mi Curriculum</button></a>
+           <a href="./imgs/javi-lopez-esp2.pdf" alt="curriculum" target="blank"> <button className="btn-cv">Mira mi Curriculum</button></a>
           </div>
         </div>
       </div>
