@@ -40,7 +40,7 @@ function About() {
           </p>
         </div>
         <div className="about-right">
-          <img src="./imgs/javi-lopez-portfolio.png" alt="perfil" />
+          <img src="./imgs/javi-perfil-portfolio.png" alt="perfil" />
         </div>
       </div>
     </section>

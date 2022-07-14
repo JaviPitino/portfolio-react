@@ -74,7 +74,7 @@ body {
 
 .about-right img {
   margin-left: 3rem;
-  width: 100%;
+  width: 70%;
   border-radius: 50%;
   border: 0.5em solid yellow;
 }
@@ -248,6 +248,20 @@ body {
   to {
     width: 100%;
   }
+}
+
+.btn-cv {
+  margin-top: 5em;
+  padding: 1em 0.2em;
+  background-color: crimson;
+  font-size: .9em;
+  width: 40%;
+  color: white;
+}
+
+.btn-cv:hover {
+  background-color: black;
+  transition: 1s;
 }
 
 .hard-skills {
