@@ -1,7 +1,6 @@
 import React from "react";
 
 function Curriculum() {
-
   return (
     <section id="cv">
       <div className="container-cv">
@@ -12,11 +11,7 @@ function Curriculum() {
             Ironhack WebDev Bootcamp &nbsp; <span> | &nbsp; Abril 2022 </span>{" "}
           </h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            deserunt ipsa est, perspiciatis tempora necessitatibus fugiat esse
-            quod nobis amet dolores eos veritatis harum? Reiciendis nam, qui
-            iusto eveniet error magni libero cumque nulla necessitatibus quasi
-            quas non unde! Voluptatem.
+            Recientemente me he graduado como Full Stack Web Developer en Ironhack. Un bootcamp de nueve semanas de duración muy intensas, donde he aprendido ha realizar aplicaciones web desde cero, manejando tanto la parte Backend, como la parte Frontend y utilizando entre otras las siguientes tecnologías: HTML, CSS, Javascript(ES6), MongoDB, Express, NodeJs, React, Handlebars, git, GitHub, Postman, Heroku, Netlify.
           </p>
           <div className="line-cv"></div>
           <h3 id="experience">Experience</h3>
@@ -25,11 +20,7 @@ function Curriculum() {
             <span> | &nbsp; Julio 2004 - Noviembre 2021 </span>{" "}
           </h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            deserunt ipsa est, perspiciatis tempora necessitatibus fugiat esse
-            quod nobis amet dolores eos veritatis harum? Reiciendis nam, qui
-            iusto eveniet error magni libero cumque nulla necessitatibus quasi
-            quas non unde! Voluptatem.
+            He desarrollado la mayor parte de mi carrera profesional como diseñador gráfico en el Diario de Cádiz, siendo parte del equipo de diseño y maquetación. Mi principal tarea consistía en maquetar el día a día del periódico, el diseño de suplementos y el tratamiento de fotografías, entre otras numerosas tareas diarias.
           </p>
         </div>
         <div className="cv-right">
@@ -118,7 +109,22 @@ function Curriculum() {
             <i className="icon-skill fa-brands fa-bootstrap"></i>
             <i className="icon-skill fa-brands fa-github"> </i>
             <i className="icon-skill fa-brands fa-git-alt"></i>
-            {/* <img className="icon-skill" src="../imgs/adobe-photoshop.png" width={90} /> */}
+            <img
+            className="icon-skill img-skill"
+            alt="photoshop"
+            src="./imgs/adobe-photoshop.png"
+            />
+            <img
+            className="icon-skill img-skill"
+            alt="photoshop"
+            src="./imgs/adobe-illustrator.png"
+            />
+              <img
+            className="icon-skill img-skill"
+            alt="photoshop"
+            src="./imgs/adobe-indesign.png"
+            />
+
           </p>
         </div>
       </div>

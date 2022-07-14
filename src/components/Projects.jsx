@@ -32,7 +32,7 @@ function Projects() {
               <h3>Wines.Routes</h3>
               <p>Una plataforma para los amantes del vino</p>
               <a
-                href="https://javipitino.github.io/Road-to-Hell/"
+                href="https://wine-routes.herokuapp.com/"
                 className="btn btn-primary"
                 target="blank"
               >
@@ -48,7 +48,7 @@ function Projects() {
               <h3>El Huerto Ecológico</h3>
               <p>Para los que buscan una manera más sostenible y ecológica de alimentarse</p>
               <a
-                href="https://javipitino.github.io/Road-to-Hell/"
+                href="https://ecocajas.netlify.app/"
                 className="btn btn-primary"
                 target="blank"
               >

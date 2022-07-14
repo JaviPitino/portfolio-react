@@ -96,8 +96,16 @@ body {
   justify-content: space-evenly;
   font-size: 3em;
   color: black;
-  padding: 0 1em 0.5em 0;
+  padding: 0 .7em 0.5em 0;
 }
+
+.img-skill {
+  justify-content: space-evenly;
+  width: 1.5em;
+  color: black;
+  padding: 0 .7em 0.5em 0;
+}
+
 
 .icon-skill:hover {
   font-size: 3em;
@@ -108,8 +116,18 @@ body {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 3.5em 0 0;
+  margin: 0 3em 0 0;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+.skills p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 
 /* ---- CURRICULUM SECTION ---- */
 
