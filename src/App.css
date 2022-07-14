@@ -724,10 +724,7 @@ h1 {
   .container-about {
     padding: 0rem 2rem 0rem 0rem;
   }
-
-  .container-cv {
-    padding: 0rem 0.2rem 2rem 0rem;
-  }
+  
   .about-right img {
     display: none;
   }
@@ -814,7 +811,6 @@ h1 {
     width: 90%;
   }
 
-
   .img-container img {
     width: 18em;
     max-width: 20em;
@@ -825,6 +821,24 @@ h1 {
     padding: 0;
     width: 15em;
     max-width: 15em;
+  }
+
+  #projects {
+    padding: 4em 0 0 6em;
+  }
+
+  #about {
+    padding: 4rem 4rem 3rem 6rem;
+  }
+
+  .container-cv {
+    margin: 8rem 0rem 0rem 6rem;
+  }
+  .icon-skill {
+    justify-content: space-evenly;
+    font-size: 3em;
+    color: black;
+    padding: 0 .5em .5em 0;
   }
 }
 
