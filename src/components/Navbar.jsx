@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -16,34 +15,34 @@ function Navbar() {
           </div>
           <ul className="menu-items">
             <li>
-              <Link className="link" to={"#home"}>
+              <a className="link" href={"#home"}>
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="link" to={"#about"}>
+              <a className="link" href={"#about"}>
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="link" to={"#cv"}>
+              <a className="link" href={"#cv"}>
                 Curriculum
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="link" to={"#projects"}>
+              <a className="link" href="#projects">
                 Proyectos
-              </Link>
+              </a>
             </li>
           </ul>
-          <Link className="logo" to={"#home"}>
+          <a className="logo" href={"#home"}>
             <img
               src="./imgs/logo-javi2-blanco.png"
               alt="logo-javi"
               className="logo"
               width="70px"
             />
-          </Link>
+          </a>
         </div>
         <div className="line-navbar"></div>
       </nav>

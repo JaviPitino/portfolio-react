@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 
 function Footer() {
 
@@ -16,11 +15,11 @@ function Footer() {
   return (
     <div>
         <div className="go-top-container">
-        <Link to={"#home"}>
+        <a href={"#home"}>
             <div className="go-top-btn">
                 <i className="fas fa-chevron-up"></i>
             </div>
-        </Link>
+        </a>
         </div>
       {/* <Link to={"#home"}>
         <button id="button"></button>
