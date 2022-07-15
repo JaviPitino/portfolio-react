@@ -9,7 +9,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Progessbar from './components/Progessbar';
 
-function App(props) {
+function App() {
 
 
   return (

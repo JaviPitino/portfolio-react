@@ -2,10 +2,6 @@ import React from "react";
 
 function Curriculum() {
 
-  // function reloadComponent(){
-  //   window.location.reload(false);
-  // }
-
   return (
     <section id="cv">
       <div className="container-cv">
