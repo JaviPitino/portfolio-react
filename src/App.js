@@ -1,5 +1,5 @@
 import './App.css';
-import './food.css';
+import './projects.css';
 import './buttonup.css'
 import About from './components/About';
 import Curriculum from './components/Curriculum';
@@ -9,7 +9,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Progessbar from './components/Progessbar';
 
-function App() {
+function App(props) {
 
 
   return (

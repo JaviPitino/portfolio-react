@@ -1,6 +1,11 @@
 import React from "react";
 
 function Curriculum() {
+
+  // function reloadComponent(){
+  //   window.location.reload(false);
+  // }
+
   return (
     <section id="cv">
       <div className="container-cv">
@@ -93,7 +98,7 @@ function Curriculum() {
                 ></div>
               </div>
             </div>
-           <a href="./imgs/javi-lopez-esp2.pdf" alt="curriculum" target="blank"> <button className="btn-cv">Mira mi Curriculum</button></a>
+           <a href="./imgs/javi-lopez-esp2.pdf" alt="curriculum" target="blank"> <button className="btn-cv">Look mi Curriculum</button></a>
           </div>
         </div>
       </div>

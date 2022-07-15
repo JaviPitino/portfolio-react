@@ -227,6 +227,7 @@ body {
   top: -35px;
   right: 0;
   transform: translateX(50%);
+  z-index: 2;
 }
 
 .skill-per:after {
@@ -239,6 +240,7 @@ body {
   right: 0;
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
+  z-index: 1;
 }
 
 @keyframes bars {

@@ -2,6 +2,7 @@ import React from "react";
 
 
 function Navbar() {
+
   return (
     // <!-- CURRICULUM -->
     <section id="navbar">
@@ -25,7 +26,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className="link" href={"#cv"}>
+              <a className="link" href={"#cv"} >
                 Curriculum
               </a>
             </li>
