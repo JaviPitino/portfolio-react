@@ -13,7 +13,7 @@ function About() {
             Nací en Cádiz, una ciudad más que perfecta para llevar un ritmo de vida activo pero sin prisas y lo mejor de todo, rodeada de mar. 
             <br />
             <br />
-            He desarrollado mi carrera profesional como diseñador gráfico en el sector editorial, debido al creciente estado de crisis que vive el sector decidí dar un cambio en mi carrera profesional y hacer el bootcamp de Wev Developer de Ironhack.
+            He desarrollado mi carrera profesional como diseñador gráfico en el sector editorial, debido al creciente estado de crisis que vive el sector decidí dar un cambio en mi carrera profesional y hacer el bootcamp de Web Developer de Ironhack.
             <br />
             <br />
             Me encanta involucrarme en cualquier proyecto que sirva para facilitar la vida de las personas siempre dejando mi impronta personal: una imagen visual cuidada y original. Soy una persona comprometida, creativa, responsable y resolutiva.
