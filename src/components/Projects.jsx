@@ -32,7 +32,7 @@ function Projects() {
               <h3>Wines.Routes</h3>
               <p>Una plataforma para los amantes del vino</p>
               <a
-                href="https://wine-routes.herokuapp.com/"
+                href="https://winesroutes.onrender.com/"
                 className="btn btn-primary"
                 target="blank"
               >
